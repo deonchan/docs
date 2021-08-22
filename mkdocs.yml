@@ -7,8 +7,8 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink
-      accent: indigo
+      primary: indigo
+      accent: blue
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -16,7 +16,7 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: pink
+      primary: indigo
       accent: blue
       toggle:
         icon: material/toggle-switch
@@ -25,16 +25,16 @@ theme:
 # Extensions
 markdown_extensions:
   - footnotes
-  # - attr_list
-  # - pymdownx.arithmatex
-  # - pymdownx.superfences
-  # - pymdownx.details
-  # - pymdownx.magiclink
+   - attr_list
+   - pymdownx.arithmatex
+   - pymdownx.superfences
+   - pymdownx.details
+   - pymdownx.magiclink
   # - pymdownx.tasklist:
-  #     custom_checkbox: true
+   #    custom_checkbox: true
 #  - pymdownx.emoji:
 #      emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  # - admonition
+   - admonition
   - toc:
       permalink: true
 
