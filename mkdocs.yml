@@ -24,12 +24,11 @@ theme:
 
 # Extensions
 markdown_extensions:
-- toc:
-  permalink: true
+- admonition
 - pymdownx.superfences
 - pymdownx.tabbed
-- admonition
-- pymdownx.tabbed
+- toc:   
+  permalink: true
 
 plugins:
 - search
