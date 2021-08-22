@@ -1,4 +1,4 @@
-site_name: obsidian-mkdocs template
+site_name: Deon's Documentation
 
 theme:
     name: 'material'
