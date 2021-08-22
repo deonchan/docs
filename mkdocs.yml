@@ -34,8 +34,8 @@ markdown_extensions:
    #    custom_checkbox: true
 #  - pymdownx.emoji:
 #      emoji_generator: !!python/name:pymdownx.emoji.to_svg
-   - admonition
-   - pymdownx.tabbed
+  - admonition
+  - pymdownx.tabbed
   - toc:
       permalink: true
 
@@ -43,4 +43,3 @@ plugins:
   - search
   - roamlinks
   - include-markdown
-
