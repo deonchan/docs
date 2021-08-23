@@ -31,6 +31,5 @@ markdown_extensions:
     - pymdownx.tabbed
 
 plugins:
-    - include-markdown
     - search
     - roamlinks
